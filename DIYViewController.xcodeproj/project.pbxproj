@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13EB87F1BBE6F0F1833B015F /* libPods-DIYViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEFF49E42547E6EE3439719 /* libPods-DIYViewController.a */; };
+		F6125F9D1DFA402400BFDEC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125F9C1DFA402400BFDEC9 /* main.m */; };
+		F6125FA01DFA402400BFDEC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125F9F1DFA402400BFDEC9 /* AppDelegate.m */; };
+		F6125FA31DFA402400BFDEC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125FA21DFA402400BFDEC9 /* ViewController.m */; };
+		F6125FA61DFA402400BFDEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6125FA41DFA402400BFDEC9 /* Main.storyboard */; };
+		F6125FA81DFA402400BFDEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6125FA71DFA402400BFDEC9 /* Assets.xcassets */; };
+		F6125FAB1DFA402400BFDEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6125FA91DFA402400BFDEC9 /* LaunchScreen.storyboard */; };
+		F6125FB51DFA407200BFDEC9 /* DIYViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125FB31DFA407200BFDEC9 /* DIYViewControler.m */; };
+		F6125FB61DFA407200BFDEC9 /* DIYViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6125FB41DFA407200BFDEC9 /* DIYViewControler.xib */; };
+		F6125FBA1DFA410600BFDEC9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125FB81DFA410600BFDEC9 /* MainViewController.m */; };
+		F6125FBB1DFA410600BFDEC9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6125FB91DFA410600BFDEC9 /* MainViewController.xib */; };
+		F6125FBF1DFA42C000BFDEC9 /* KSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125FBE1DFA42C000BFDEC9 /* KSRequestManager.m */; };
+		F6125FCB1DFA840100BFDEC9 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6125FCA1DFA840100BFDEC9 /* CoreDataManager.m */; };
+		F69156A51DFA8FD400F35862 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69156A31DFA8FD400F35862 /* Model.xcdatamodeld */; };
+		F6A05E5D1DFA910000EDDC2E /* EntityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A05E5A1DFA910000EDDC2E /* EntityModel.m */; };
+		F6A05E5E1DFA910000EDDC2E /* EntityModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A05E5C1DFA910000EDDC2E /* EntityModel+CoreDataProperties.m */; };
+		F6A05E871DFAA75B00EDDC2E /* ItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A05E861DFAA75B00EDDC2E /* ItemsView.m */; };
+		F6B1A0851DFBB0A00058A266 /* DidMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B1A0831DFBB0A00058A266 /* DidMenuCell.m */; };
+		F6B1A0861DFBB0A00058A266 /* DidMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B1A0841DFBB0A00058A266 /* DidMenuCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B2F4612726751C8053B8A8C /* Pods-DIYViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIYViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIYViewController/Pods-DIYViewController.release.xcconfig"; sourceTree = "<group>"; };
+		6FEFF49E42547E6EE3439719 /* libPods-DIYViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DIYViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BD4F8CC16361A170EEB33C /* Pods-DIYViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIYViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIYViewController/Pods-DIYViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		F6125F981DFA402400BFDEC9 /* DIYViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIYViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6125F9C1DFA402400BFDEC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6125F9E1DFA402400BFDEC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6125F9F1DFA402400BFDEC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6125FA11DFA402400BFDEC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6125FA21DFA402400BFDEC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6125FA51DFA402400BFDEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6125FA71DFA402400BFDEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6125FAA1DFA402400BFDEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6125FAC1DFA402400BFDEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6125FB21DFA407200BFDEC9 /* DIYViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYViewControler.h; sourceTree = "<group>"; };
+		F6125FB31DFA407200BFDEC9 /* DIYViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYViewControler.m; sourceTree = "<group>"; };
+		F6125FB41DFA407200BFDEC9 /* DIYViewControler.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DIYViewControler.xib; sourceTree = "<group>"; };
+		F6125FB71DFA410600BFDEC9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F6125FB81DFA410600BFDEC9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F6125FB91DFA410600BFDEC9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F6125FBD1DFA42C000BFDEC9 /* KSRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRequestManager.h; sourceTree = "<group>"; };
+		F6125FBE1DFA42C000BFDEC9 /* KSRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRequestManager.m; sourceTree = "<group>"; };
+		F6125FC91DFA840100BFDEC9 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		F6125FCA1DFA840100BFDEC9 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		F69156A41DFA8FD400F35862 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F6A05E591DFA910000EDDC2E /* EntityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityModel.h; sourceTree = "<group>"; };
+		F6A05E5A1DFA910000EDDC2E /* EntityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityModel.m; sourceTree = "<group>"; };
+		F6A05E5B1DFA910000EDDC2E /* EntityModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EntityModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F6A05E5C1DFA910000EDDC2E /* EntityModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EntityModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F6A05E851DFAA75B00EDDC2E /* ItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsView.h; sourceTree = "<group>"; };
+		F6A05E861DFAA75B00EDDC2E /* ItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsView.m; sourceTree = "<group>"; };
+		F6B1A0821DFBB0A00058A266 /* DidMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidMenuCell.h; sourceTree = "<group>"; };
+		F6B1A0831DFBB0A00058A266 /* DidMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidMenuCell.m; sourceTree = "<group>"; };
+		F6B1A0841DFBB0A00058A266 /* DidMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DidMenuCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6125F951DFA402400BFDEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB87F1BBE6F0F1833B015F /* libPods-DIYViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FC3136551193D2436FE110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD4F8CC16361A170EEB33C /* Pods-DIYViewController.debug.xcconfig */,
+				4B2F4612726751C8053B8A8C /* Pods-DIYViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A44A9D9351F749D724D3274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFF49E42547E6EE3439719 /* libPods-DIYViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6125F8F1DFA402400BFDEC9 = {
+			isa = PBXGroup;
+			children = (
+				F6125F9A1DFA402400BFDEC9 /* DIYViewController */,
+				F6125F991DFA402400BFDEC9 /* Products */,
+				59FC3136551193D2436FE110 /* Pods */,
+				7A44A9D9351F749D724D3274 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6125F991DFA402400BFDEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6125F981DFA402400BFDEC9 /* DIYViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6125F9A1DFA402400BFDEC9 /* DIYViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F6125FBC1DFA42C000BFDEC9 /* KSRequestManager */,
+				F6125F9E1DFA402400BFDEC9 /* AppDelegate.h */,
+				F6125F9F1DFA402400BFDEC9 /* AppDelegate.m */,
+				F6125FA11DFA402400BFDEC9 /* ViewController.h */,
+				F6125FA21DFA402400BFDEC9 /* ViewController.m */,
+				F6125FB71DFA410600BFDEC9 /* MainViewController.h */,
+				F6125FB81DFA410600BFDEC9 /* MainViewController.m */,
+				F6125FB91DFA410600BFDEC9 /* MainViewController.xib */,
+				F6125FB21DFA407200BFDEC9 /* DIYViewControler.h */,
+				F6125FB31DFA407200BFDEC9 /* DIYViewControler.m */,
+				F6125FB41DFA407200BFDEC9 /* DIYViewControler.xib */,
+				F6A05E851DFAA75B00EDDC2E /* ItemsView.h */,
+				F6A05E861DFAA75B00EDDC2E /* ItemsView.m */,
+				F6B1A0821DFBB0A00058A266 /* DidMenuCell.h */,
+				F6B1A0831DFBB0A00058A266 /* DidMenuCell.m */,
+				F6B1A0841DFBB0A00058A266 /* DidMenuCell.xib */,
+				F6125FC01DFA821D00BFDEC9 /* CoreData */,
+				F6125FA41DFA402400BFDEC9 /* Main.storyboard */,
+				F6125FA71DFA402400BFDEC9 /* Assets.xcassets */,
+				F6125FA91DFA402400BFDEC9 /* LaunchScreen.storyboard */,
+				F6125FAC1DFA402400BFDEC9 /* Info.plist */,
+				F6125F9B1DFA402400BFDEC9 /* Supporting Files */,
+			);
+			path = DIYViewController;
+			sourceTree = "<group>";
+		};
+		F6125F9B1DFA402400BFDEC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6125F9C1DFA402400BFDEC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6125FBC1DFA42C000BFDEC9 /* KSRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				F6125FBD1DFA42C000BFDEC9 /* KSRequestManager.h */,
+				F6125FBE1DFA42C000BFDEC9 /* KSRequestManager.m */,
+			);
+			path = KSRequestManager;
+			sourceTree = "<group>";
+		};
+		F6125FC01DFA821D00BFDEC9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F6A05E591DFA910000EDDC2E /* EntityModel.h */,
+				F6A05E5A1DFA910000EDDC2E /* EntityModel.m */,
+				F6A05E5B1DFA910000EDDC2E /* EntityModel+CoreDataProperties.h */,
+				F6A05E5C1DFA910000EDDC2E /* EntityModel+CoreDataProperties.m */,
+				F6125FC91DFA840100BFDEC9 /* CoreDataManager.h */,
+				F6125FCA1DFA840100BFDEC9 /* CoreDataManager.m */,
+				F69156A31DFA8FD400F35862 /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6125F971DFA402400BFDEC9 /* DIYViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6125FAF1DFA402400BFDEC9 /* Build configuration list for PBXNativeTarget "DIYViewController" */;
+			buildPhases = (
+				238D0FF87822F381C1335F8D /* [CP] Check Pods Manifest.lock */,
+				F6125F941DFA402400BFDEC9 /* Sources */,
+				F6125F951DFA402400BFDEC9 /* Frameworks */,
+				F6125F961DFA402400BFDEC9 /* Resources */,
+				A1137CB92417B61891D7D46B /* [CP] Embed Pods Frameworks */,
+				B87CE75C566D3AEE9B6EE34B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIYViewController;
+			productName = DIYViewController;
+			productReference = F6125F981DFA402400BFDEC9 /* DIYViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6125F901DFA402400BFDEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZheJiangTianErRuanJian;
+				TargetAttributes = {
+					F6125F971DFA402400BFDEC9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6125F931DFA402400BFDEC9 /* Build configuration list for PBXProject "DIYViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6125F8F1DFA402400BFDEC9;
+			productRefGroup = F6125F991DFA402400BFDEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6125F971DFA402400BFDEC9 /* DIYViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6125F961DFA402400BFDEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6125FAB1DFA402400BFDEC9 /* LaunchScreen.storyboard in Resources */,
+				F6125FA81DFA402400BFDEC9 /* Assets.xcassets in Resources */,
+				F6125FBB1DFA410600BFDEC9 /* MainViewController.xib in Resources */,
+				F6125FB61DFA407200BFDEC9 /* DIYViewControler.xib in Resources */,
+				F6B1A0861DFBB0A00058A266 /* DidMenuCell.xib in Resources */,
+				F6125FA61DFA402400BFDEC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238D0FF87822F381C1335F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1137CB92417B61891D7D46B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIYViewController/Pods-DIYViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87CE75C566D3AEE9B6EE34B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIYViewController/Pods-DIYViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6125F941DFA402400BFDEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A05E5D1DFA910000EDDC2E /* EntityModel.m in Sources */,
+				F6A05E871DFAA75B00EDDC2E /* ItemsView.m in Sources */,
+				F6125FA31DFA402400BFDEC9 /* ViewController.m in Sources */,
+				F6A05E5E1DFA910000EDDC2E /* EntityModel+CoreDataProperties.m in Sources */,
+				F6125FA01DFA402400BFDEC9 /* AppDelegate.m in Sources */,
+				F6125FCB1DFA840100BFDEC9 /* CoreDataManager.m in Sources */,
+				F6B1A0851DFBB0A00058A266 /* DidMenuCell.m in Sources */,
+				F69156A51DFA8FD400F35862 /* Model.xcdatamodeld in Sources */,
+				F6125FB51DFA407200BFDEC9 /* DIYViewControler.m in Sources */,
+				F6125FBF1DFA42C000BFDEC9 /* KSRequestManager.m in Sources */,
+				F6125FBA1DFA410600BFDEC9 /* MainViewController.m in Sources */,
+				F6125F9D1DFA402400BFDEC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6125FA41DFA402400BFDEC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6125FA51DFA402400BFDEC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6125FA91DFA402400BFDEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6125FAA1DFA402400BFDEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6125FAD1DFA402400BFDEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6125FAE1DFA402400BFDEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6125FB01DFA402400BFDEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BD4F8CC16361A170EEB33C /* Pods-DIYViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DIYViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tianer.com.DIYViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6125FB11DFA402400BFDEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2F4612726751C8053B8A8C /* Pods-DIYViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DIYViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tianer.com.DIYViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6125F931DFA402400BFDEC9 /* Build configuration list for PBXProject "DIYViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6125FAD1DFA402400BFDEC9 /* Debug */,
+				F6125FAE1DFA402400BFDEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6125FAF1DFA402400BFDEC9 /* Build configuration list for PBXNativeTarget "DIYViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6125FB01DFA402400BFDEC9 /* Debug */,
+				F6125FB11DFA402400BFDEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F69156A31DFA8FD400F35862 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F69156A41DFA8FD400F35862 /* Model.xcdatamodel */,
+			);
+			currentVersion = F69156A41DFA8FD400F35862 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6125F901DFA402400BFDEC9 /* Project object */;
+}
